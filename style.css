@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh; */
+    font-family: 'Akagu',sans-serif;
+}
+.backgroud{
+
+    position: absolute;
+    background-image: url('images/medium-shot-nigerian-dancers-outdoors-copy.jpg');
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-position: inherit;
+    /* padding: 40px;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    bottom: 50px; */
+    /* background: black; */
+    /* opacity: 0.9; */
+
+}
+.backgroud h2{
+    color: white;
+    size: 140px;
+}
+@font-face {
+    font-family: Akagu;
+    src: url(images/akagu2020_3.ttf);
+}
