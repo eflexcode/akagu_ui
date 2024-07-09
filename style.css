@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     /* background-image: url('images/background.jpeg');
     background-repeat: no-repeat;
@@ -10,25 +11,70 @@ body{
     font-family: 'Akagu',sans-serif;
 }
 .backgroud{
-
     position: absolute;
-    background-image: url('images/medium-shot-nigerian-dancers-outdoors-copy.jpg');
     height: 100%;
-    width: 40%;
+    width: 50%;
+    background: #363535;
+    background-image: url('images/girl_background.jpg');
     background-size: cover;
-    background-position: inherit;
-    /* padding: 40px;
-    border-radius: 30px;
-    margin-left: 150px;
-    margin-top: 50px;
-    bottom: 50px; */
-    /* background: black; */
-    /* opacity: 0.9; */
-
+    background-position: initial;
+    background-blend-mode: multiply;
+    align-items: center;
 }
-.backgroud h2{
+.backgroud div{
+    margin-left: 90px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+}
+.backgroud h1{
     color: white;
-    size: 140px;
+    font-weight: bold;
+    font-size: 100px;
+   
+}
+.backgroud p{
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.login-div{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    float: right;
+    right: 0;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+.login-div div{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+.welcome-title{ 
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.login-div p{
+    color: rgb(109, 106, 106);
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.detail{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
 }
 @font-face {
     font-family: Akagu;
