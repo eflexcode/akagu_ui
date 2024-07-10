@@ -1,2 +1,2 @@
-#Nsibidi/Akagu teamed UI
-<img scr="images/github_image.png">
+# Nsibidi/Akagu teamed UI
+<img src="images/github_image.png">
